@@ -8,7 +8,7 @@ Bterra <- 1.70192 * 10 ^ (-5)
 
 # get data
 metric_r_cte <-
-  read_delim("../data/metric_r_cte.csv",
+  read_delim("data/metric_r_cte.csv",
              ";",
              escape_double = FALSE,
              trim_ws = TRUE)
